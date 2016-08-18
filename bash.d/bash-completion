@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+#installed via homebrew, so use the brew path prefix
+[[ -r $(brew --prefix)/etc/bash_completion ]] && source $(brew --prefix)/etc/bash_completion
