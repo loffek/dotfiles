@@ -7,8 +7,3 @@
 # Load .bashrc if it exists and is readable
 [[ -r ~/.bashrc ]] && source ~/.bashrc
 
-# only do this at login:
-if [[ -r /Users/loffek/.opam/opam-init/init.sh ]] ; then
-    . /Users/loffek/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
-fi
-
